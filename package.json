@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-chat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "only chat UI for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "chat",
+    "ui",
+    "react-native-component"
   ],
   "repository": "https://github.com/kbwo/react-native-simple-chat",
   "author": "Kodai Kabasawa <kabaaa1126@gmail.com> (https://github.com/kbwo)",
