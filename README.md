@@ -1,11 +1,13 @@
 # react-native-simple-chat
 
-only chat UI for React Native
+simple chat UI for React Native
 
 ## Installation
 
 ```sh
 npm install react-native-simple-chat
+or
+yarn add react-native-simple-chat
 ```
 
 ## Usage
@@ -15,8 +17,16 @@ import SimpleChat from "react-native-simple-chat";
 
 // ...
 
-const result = await SimpleChat.multiply(3, 7);
+`
+<SimpleChat
+  data={arrayOfMessages}
+  sendButtonText="send"
+  onPressSendButton={sendMessage}
+/>
+`
 ```
+### Example
+[this is example](example/src/App.tsx)
 
 ## Contributing
 
