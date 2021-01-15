@@ -16,14 +16,11 @@ yarn add react-native-simple-chat
 import SimpleChat from "react-native-simple-chat";
 
 // ...
-
-`
 <SimpleChat
   data={arrayOfMessages}
   sendButtonText="send"
   onPressSendButton={sendMessage}
 />
-`
 ```
 ### Example
 [this is example](example/src/App.tsx)
